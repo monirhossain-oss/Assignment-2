@@ -1,0 +1,351 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Quicksand", serif;
+    background: linear-gradient(white, #d6ac63);
+}
+/* navbar section start */
+header nav img{
+    width: 62px;
+}
+header .logo{
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+header nav{
+    margin: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+.logo-text{
+    font-weight: 800;
+    font-size: 32px;
+}
+.navbar ol{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text
+}
+.navbar ol{
+    list-style: none;
+}
+.orange{
+    color: orange;
+}
+.skyblue{
+    color: skyblue;
+}
+.sky{
+    color: #05D4DF;
+}
+.blue{
+    color: #5D58EF;
+}
+.navbar ol li a{
+    text-decoration: none;
+}
+header .nav-btn button{
+    background-color: #FEA301;
+    width: 170px;
+    height: 45px;
+    border-radius: 12px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+header .menu-icon{
+    display: none;
+}
+/* navbar section end */
+
+/* banner sectin start  */
+.banner{
+    margin: 0px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner .banner-content .banner-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner .banner-text{
+    font-size: 20px;
+}
+.banner-content button{
+    background-color: black;
+    width: 150px;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+/* banner section end */
+
+/* curriculum section start */
+.curriculum {
+    margin: 0px 80px;
+}
+.curriculum-title{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 40px;
+}
+.curriculum-card-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 20px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.curriculum-card h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.curriculum-card p{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 20px;
+}
+.curriculum-card{
+    border-radius: 18px;
+}
+.curriculum button{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 30px 0px;
+    background-color: transparent;
+}
+.curriculum button:hover{
+    cursor: pointer;
+}
+.curriculum-card-section .card-1{
+    background: linear-gradient(#DEF5FF, white);
+    padding: 35px 0px;
+}
+.curriculum-card-section .card-2{
+    background: linear-gradient(#FFF4DC, white);
+    padding: 40px 0px;
+}
+.curriculum-card-section .card-3{
+    background: linear-gradient(#F2E8FF, white);
+    padding: 40px 0px;
+}
+.curriculum-btn-grp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.curriculum-btn-grp button{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 100%;
+}
+/* curriculum section end */
+
+/* stories section start */
+.stories{
+    margin: 0px 80px;
+}
+.stories-title{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0px;
+}
+.stories-card-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.stories-card-section .stories-card1{
+    width: 40%;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+.stories-card-section .stories-card1 img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.stories-card-section .stories-card1 h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+.stories-card-section .stories-card1 p{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.stories-card-section .stories-card1 h3,p{
+    padding: 0px 20px;
+}
+.stories-card1 .stories-date{
+    position: absolute;
+    top: 260px;
+    display: flex;
+    background-color: #3CD8E8;
+    margin-left: 20px;
+    border-radius: 47px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+.stories-card-section .stories-card2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.stories-card-section .stories-card2 div{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+.stories-card-section .stories-card2 img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.stories-card-section .stories-card2 p{
+    padding: 30px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.stories-card2 div h4{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    background-color: #95B226;
+    padding: 10px;
+    border-radius: 47px;
+}
+.stories-btn{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px;
+}
+.stories-btn button{
+    font-size: 16px;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+/* stories section end */
+
+/* footer start */
+
+comment korci 
+
+
+/* footer{
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: white;
+    padding: 100px;
+}
+.footer-left-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer-left-logo img{
+    background-color: white;
+}
+.footer-left-content{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.footer-center-title, .footer-right-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footer-center ol{
+    list-style: none;
+}
+.footer-center ol li a{
+    text-decoration: none;
+    color: white;
+} */
+.footer-center ol li{
+    margin-bottom: 15px;
+}
+/* footer end */
+
+
+comment korci 
+
+
+/* @media only screen and (max-width: 600px) {
+     .banner, .curriculum, .stories{
+        margin: 0px 20px;
+    }
+    .banner img{
+        width: 350px;
+    }
+    header .logo-text{
+        display: none;
+    }
+    header .navbar{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    header .menu-icon{
+        display: block;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .curriculum-card-section{
+        grid-template-columns: auto;
+    }
+    .curriculum-btn-grp, .stories-card-section .stories-card1{
+        display: none;
+    }
+    .stories-card2 div h4{
+        top: 110px;
+    }
+    footer{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    nav{
+        position: sticky;
+        top:0%;
+        z-index: 1;
+        background-color: #d6ac63;
+        margin: 0px;
+    }
+} */
