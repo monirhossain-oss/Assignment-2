@@ -340,11 +340,15 @@ footer{
         flex-direction: column;
         padding: 50px 20px;
     }
-    nav{
-        position: sticky;
-        top:0%;
-        z-index: 1;
-        background-color: #d6ac63;
-        margin: 0px;
+    header{
+       border-bottom: 1px solid orange;
+       position: sticky;
+       top: 0%;
+       z-index: 1;
+       background-color: white;
+       margin: 0px 0px ;
+    }
+    header nav{
+        margin: 0px 0px;
     }
 }
