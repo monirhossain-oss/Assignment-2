@@ -240,6 +240,7 @@ header .menu-icon{
     padding: 10px;
     border-radius: 47px;
 }
+
 .stories-btn{
     display: flex;
     justify-content: center;
@@ -335,7 +336,14 @@ footer{
     }
     .stories-card2 div h4{
         top: 110px;
+        font-size: 10px;
+        color:white;
+        top:100px;
     }
+    .unick{
+        background-color: #5D58F0;
+    }
+    
     footer{
         flex-direction: column;
         padding: 50px 20px;
